@@ -9,7 +9,7 @@ export const Instructor = () => {
     <>
       <section className="mb-16 instructor bg-black/20">
         <div className="container">
-          <div
+          {/* <div
             className="w-2/3 py-12 m-auto text-center heading md:w-full"
             data-aos="fade-top"
             data-aos-duration="800"
@@ -26,7 +26,7 @@ export const Instructor = () => {
               data-aos="fade-right"
               data-aos-duration="800"
               data-aos-once="false"
-              className="relative overflow-hidden flex flex-col justify-around items-center rounded-lg bg-slate-400 images h-72 w-ful  before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10"
+              className="relative flex flex-col items-center justify-around overflow-hidden rounded-lg bg-slate-400 images h-72 w-ful before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10"
             >
               <img
                 src="images/teacher1.png"
@@ -41,7 +41,7 @@ export const Instructor = () => {
               data-aos="fade-left"
               data-aos-duration="800"
               data-aos-once="false"
-              className="relative overflow-hidden flex flex-col justify-around items-center rounded-lg bg-slate-400 images h-72 w-ful  before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10"
+              className="relative flex flex-col items-center justify-around overflow-hidden rounded-lg bg-slate-400 images h-72 w-ful before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10"
             >
               <img
                 src="images/teacher2.png"
@@ -52,7 +52,7 @@ export const Instructor = () => {
                 Math Teacher
               </h2>
             </div>
-          </div>
+          </div> */}
           <div className="content">
             <div
               data-aos="fade-top"
@@ -146,8 +146,8 @@ export const InstructorCard = (props) => {
       className={`box p-5 py-5 rounded-md flex flex-col justify-center items-center`}
     >
       <div className={`${props.color}`}>{props.icon}</div>
-      <div className="mt-2 text flex flex-col justify-center items-center">
-        <h4 className="text-lg font-semibold text-orange-600 flex gap-1">
+      <div className="flex flex-col items-center justify-center mt-2 text">
+        <h4 className="flex gap-1 text-lg font-semibold text-orange-600">
           {" "}
           {props.star}
         </h4>
