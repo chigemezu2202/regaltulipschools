@@ -56,7 +56,7 @@ export const Instructor = () => {
           <div className="content">
             <div
               data-aos="fade-top"
-              data-aos-duration="800"
+              data-aos-duration="700"
               data-aos-once="false"
               className="w-2/3 py-12 m-auto text-center heading md:w-full"
             >
